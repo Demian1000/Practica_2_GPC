@@ -43,3 +43,18 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+.cat-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Adjust this as needed to control the container's height */
+    margin: 0;
+}
+
+.cat-image img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 400;
+}
